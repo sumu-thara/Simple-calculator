@@ -1,0 +1,76 @@
+ .container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 5px 1px rgba(153,153,153,1);
+ }
+ #display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: rgb(221, 221, 221);
+    color: black;
+   
+   }
+ 
+ 
+ 
+ .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(136, 117, 123);
+    border: none;
+    border-radius:2px;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+ }
+ .buttons>div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+
+ }
+ .button{
+   display: block;
+   padding: 12px 42px;
+   border-radius:4px;
+   font-size: 1.25rem;
+   background: rgb(158, 117, 127);
+   color: white;
+   transform: translateY(-6px);
+    
+
+ }
+ .buttons.button{
+   transform: translateY(-2px);
+ }
+ #equal{
+    background-color: rgb(214, 131, 7);
+    color: white;
+ }
+
+
+#ac{
+   background-color: rgb(214, 4, 4);
+}
+#simbol{
+background-color: orange;
+}
+
+.button:hover{
+   background-color: rgb(61, 53, 53);
+   color: aliceblue;
+   transition: 0.35s ease-in;
+
+}
+#ac:hover{
+   background-color: azure;
+   color: rgb(81, 71, 71);
+   transition: 0.32s ease-in-out;
+}
+#simbol:hover{
+   background-color: azure;
+   color: rgb(85, 75, 75);
+   transition: 0.32s ease-in-out;
+}
